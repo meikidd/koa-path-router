@@ -1,0 +1,29 @@
+{
+  "name": "koa-path-router",
+  "version": "0.1.0",
+  "description": "A router for Koa based on file paths",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meikidd/koa-path-router.git"
+  },
+  "keywords": [
+    "router",
+    "koa-router"
+  ],
+  "author": "meikidd@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meikidd/koa-path-router/issues"
+  },
+  "homepage": "https://github.com/meikidd/koa-path-router",
+  "dependencies": {
+    "koa-router": "5.1.2"
+  },
+  "devDependencies": {
+    "babel": "~5.8.12"
+  },
+  "scripts": {
+    "build": "babel lib --out-dir build"
+  }
+}
